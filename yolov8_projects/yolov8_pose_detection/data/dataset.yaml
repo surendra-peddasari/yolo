@@ -1,0 +1,13 @@
+# dataset.yaml
+path: C:\Users\pedda\yolov8_env\conversions\dataset
+
+train: images/train
+val: images/val
+test: images/test
+
+# Number of keypoints YOLO-Pose expects (17 for COCO-style human pose)
+kpt_shape: [17, 3]   # 17 keypoints, each with (x, y, visibility)
+
+# Classes
+names:
+  0: person
